@@ -99,5 +99,5 @@ if 'queue' in st.session_state and st.session_state.queue:
         st.components.v1.html(html_links, height=0)
         st.session_state.queue = []
 st.warning("""⚠️Lưu ý nếu lúc sử dụng web này mà thông báo hiện biểu tượng chặn mở tab mới (như hình dưới). Hãy chọn 'Allow pop-ups' để cho phép tự động mở trang mới tài liệu. ⚠️
-<br> Ngoài ra ai sử dụng web bằng điện thoại app Chrome, Sarafi,... thì sẽ hiện thông báo cho phép mở trang thì mọi người nhớ chọn cho phép nhé""")
+Ngoài ra ai sử dụng web bằng điện thoại app Chrome, Sarafi,... thì sẽ hiện thông báo cho phép mở trang thì mọi người nhớ chọn cho phép nhé""")
 st.image("a2.png", caption="Hình minh họa pop-up bị chặn", width=600)
